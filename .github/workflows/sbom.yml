@@ -78,17 +78,18 @@ jobs:
           SCAN_END=$(date +%s)
           echo "syft vuln-scan took $((SCAN_END - SYFT_SCAN_START)) seconds"
 
-      # ---- Trivy (FS SBOM) ----
+      # ---- Trivy (FS‐based SBOM) ----
       - name: "trivy: Record SBOM start"
         run: echo "TRIVY_SBOM_START=$(date +%s)" >> $GITHUB_ENV
 
       - name: "trivy: Install Trivy CLI"
-        uses: aquasecurity/setup-trivy@ff1b8b060f23b650436d419b5e13f67f5d4c3087
+        uses: aquasecurity/setup-trivy@v0.2.3
         with:
-          version: v0.60.1
+          version: v0.61.0          # pick a released version :contentReference[oaicite:0]{index=0}
 
       - name: "trivy: Generate FS-based CycloneDX SBOM"
         run: trivy fs --list-all-pkgs --format cyclonedx --output sbom-trivy.json .
+        # parses your repo’s package manifests into CycloneDX JSON :contentReference[oaicite:1]{index=1}
 
       - name: "trivy: Record SBOM duration"
         run: |
