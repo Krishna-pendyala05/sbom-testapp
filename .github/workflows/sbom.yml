@@ -1,0 +1,50 @@
+name: SBOM & Vulnerability Reports
+
+on:
+  push:
+
+jobs:
+  sbom-and-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # ---------- SBOM Generation ----------
+      - name: Generate CycloneDX SBOM
+        uses: cyclonedx/cdxgen@main
+        with:
+          output-format: json
+          output-file: sbom-cyclonedx.json
+
+      - name: Generate Syft SBOM
+        uses: anchore/syft-action@v0.12.0
+        with:
+          output: sbom-syft.json
+          format: json
+
+      # ---------- Vulnerability Scans ----------
+      - name: Scan CycloneDX SBOM with Grype
+        uses: anchore/grype-action@v0.12.0
+        with:
+          sbom: sbom-cyclonedx.json
+          output-format: json
+          output: vuln-cyclonedx.json
+
+      - name: Scan Syft SBOM with Grype
+        uses: anchore/grype-action@v0.12.0
+        with:
+          sbom: sbom-syft.json
+          output-format: json
+          output: vuln-syft.json
+
+      # ---------- Upload Artifacts ----------
+      - name: Upload all SBOMs and vulnerability reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: sboms-and-vuln-reports
+          path: |
+            sbom-cyclonedx.json
+            sbom-syft.json
+            vuln-cyclonedx.json
+            vuln-syft.json
