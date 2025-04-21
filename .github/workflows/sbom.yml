@@ -10,30 +10,33 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # ---- CycloneDX SBOM (XML) ----
+      # ---- CycloneDX SBOM (JSON) via Syft ----
       - name: Generate CycloneDX SBOM
-        uses: CycloneDX/cdxgen-action@v1
+        uses: anchore/sbom-action@v0.18.0
         with:
-          output: sbom-cyclonedx.xml
+          path: .
+          format: cyclonedx-json
+          output-file: sbom-cyclonedx.json
+          artifact-name: sbom-cyclonedx.json  # how it shows up in Actions artifacts :contentReference[oaicite:0]{index=0}
 
-      # ---- Syft SBOM (SPDX JSON) ----
+      # ---- Syft‑lossless SBOM (JSON) ----
       - name: Generate Syft SBOM
         uses: anchore/sbom-action@v0.18.0
         with:
           path: .
-          format: spdx-json
+          format: json
           output-file: sbom-syft.json
-          artifact-name: sbom-syft.spdx.json
+          artifact-name: sbom-syft.json :contentReference[oaicite:1]{index=1}
 
-      # ---- Scan CycloneDX SBOM with Grype ----
+      # ---- Scan CycloneDX SBOM for vulnerabilities ----
       - name: Scan CycloneDX SBOM
         uses: anchore/scan-action@v6.1.0
         with:
-          sbom: sbom-cyclonedx.xml
+          sbom: sbom-cyclonedx.json
           output-format: json
           output-file: vuln-cyclonedx.json
 
-      # ---- Scan Syft SBOM with Grype ----
+      # ---- Scan Syft SBOM for vulnerabilities ----
       - name: Scan Syft SBOM
         uses: anchore/scan-action@v6.1.0
         with:
@@ -41,13 +44,13 @@ jobs:
           output-format: json
           output-file: vuln-syft.json
 
-      # ---- Upload all artifacts ----
+      # ---- Upload everything as one artifact ----
       - name: Upload SBOMs & vulnerability reports
         uses: actions/upload-artifact@v4
         with:
           name: sboms-and-vuln-reports
           path: |
-            sbom-cyclonedx.xml
+            sbom-cyclonedx.json
             sbom-syft.json
             vuln-cyclonedx.json
             vuln-syft.json
