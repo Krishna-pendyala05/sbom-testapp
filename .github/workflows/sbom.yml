@@ -17,7 +17,7 @@ jobs:
           path: .
           format: cyclonedx-json
           output-file: sbom-cyclonedx.json
-          artifact-name: sbom-cyclonedx.json  # how it shows up in Actions artifacts :contentReference[oaicite:0]{index=0}
+          upload-artifact: false
 
       # ---- Syft‑lossless SBOM (JSON) ----
       - name: Generate Syft SBOM
@@ -26,7 +26,7 @@ jobs:
           path: .
           format: json
           output-file: sbom-syft.json
-          artifact-name: sbom-syft.json :contentReference[oaicite:1]{index=1}
+          upload-artifact: false
 
       # ---- Scan CycloneDX SBOM for vulnerabilities ----
       - name: Scan CycloneDX SBOM
@@ -44,7 +44,7 @@ jobs:
           output-format: json
           output-file: vuln-syft.json
 
-      # ---- Upload everything as one artifact ----
+      # ---- Upload all SBOMs & vulnerability reports ----
       - name: Upload SBOMs & vulnerability reports
         uses: actions/upload-artifact@v4
         with:
