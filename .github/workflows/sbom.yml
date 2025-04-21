@@ -1,4 +1,4 @@
-name: SBOM & Vulnerability Reports
+name: SBOM & Vulnerability Reports (All Tools)
 
 on:
   push:
@@ -10,35 +10,65 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # ---- CycloneDX SBOM (JSON) via Syft ----
-      - name: Generate CycloneDX SBOM
-        uses: anchore/sbom-action@v0.18.0
+      - name: Setup Node.js (for cdxgen)
+        uses: actions/setup-node@v3
         with:
-          path: .
-          format: cyclonedx-json
-          output-file: sbom-cyclonedx.json
-          upload-artifact: false
+          node-version: "18.x"
 
-      # ---- Syft‑lossless SBOM (JSON) ----
-      - name: Generate Syft SBOM
+      # ---- cdxgen ----
+      - name: cdxgen:Record SBOM start
+        run: echo "CDX_SBOM_START=$(date +%s)" >> $GITHUB_ENV
+
+      - name: cdxgen:Install CLI & generate SBOM
+        run: |
+          npm install -g @cyclonedx/cdxgen
+          cdxgen -o sbom-cdxgen.json
+        # parses your package files to JSON :contentReference[oaicite:0]{index=0}
+
+      - name: cdxgen:Record SBOM end & duration
+        run: |
+          SBOM_END=$(date +%s)
+          echo "cdxgen SBOM took $((SBOM_END - CDX_SBOM_START)) seconds"
+
+      - name: cdxgen:Record vuln-scan start
+        run: echo "CDX_VULN_START=$(date +%s)" >> $GITHUB_ENV
+
+      - name: cdxgen:Scan SBOM
+        uses: anchore/scan-action@v6.1.0
+        with:
+          sbom: sbom-cdxgen.json
+          output-format: json
+          output-file: vuln-cdxgen.json
+          fail-build: false
+        # Grype scan on cdxgen SBOM :contentReference[oaicite:1]{index=1}
+
+      - name: cdxgen:Record vuln-scan end & duration
+        run: |
+          VULN_END=$(date +%s)
+          echo "cdxgen vuln-scan took $((VULN_END - CDX_VULN_START)) seconds"
+
+      # ---- Syft ----
+      - name: syft:Record SBOM start
+        run: echo "SYFT_SBOM_START=$(date +%s)" >> $GITHUB_ENV
+
+      - name: syft:Generate SBOM
         uses: anchore/sbom-action@v0.18.0
         with:
           path: .
           format: json
           output-file: sbom-syft.json
           upload-artifact: false
+        # lossless JSON SBOM via Syft :contentReference[oaicite:2]{index=2}
 
-      # ---- Scan CycloneDX SBOM (won’t fail on medium+) ----
-      - name: Scan CycloneDX SBOM
-        uses: anchore/scan-action@v6.1.0
-        with:
-          sbom: sbom-cyclonedx.json
-          output-format: json
-          output-file: vuln-cyclonedx.json
-          fail-build: false
+      - name: syft:Record SBOM end & duration
+        run: |
+          SBOM_END=$(date +%s)
+          echo "syft SBOM took $((SBOM_END - SYFT_SBOM_START)) seconds"
 
-      # ---- Scan Syft SBOM (won’t fail on medium+) ----
-      - name: Scan Syft SBOM
+      - name: syft:Record vuln-scan start
+        run: echo "SYFT_VULN_START=$(date +%s)" >> $GITHUB_ENV
+
+      - name: syft:Scan SBOM
         uses: anchore/scan-action@v6.1.0
         with:
           sbom: sbom-syft.json
@@ -46,13 +76,54 @@ jobs:
           output-file: vuln-syft.json
           fail-build: false
 
-      # ---- Upload all SBOMs & vulnerability reports ----
-      - name: Upload SBOMs & vulnerability reports
+      - name: syft:Record vuln-scan end & duration
+        run: |
+          VULN_END=$(date +%s)
+          echo "syft vuln-scan took $((VULN_END - SYFT_VULN_START)) seconds"
+
+      # ---- Trivy ----
+      - name: trivy:Record SBOM start
+        run: echo "TRIVY_SBOM_START=$(date +%s)" >> $GITHUB_ENV
+
+      - name: trivy:Generate SBOM
+        uses: aquasecurity/trivy-action@v0.30.0
+        with:
+          scan-type: fs
+          scan-ref: .
+          format: cyclonedx-json
+          output: sbom-trivy.json
+        # CycloneDX JSON via Trivy :contentReference[oaicite:3]{index=3}
+
+      - name: trivy:Record SBOM end & duration
+        run: |
+          SBOM_END=$(date +%s)
+          echo "trivy SBOM took $((SBOM_END - TRIVY_SBOM_START)) seconds"
+
+      - name: trivy:Record vuln-scan start
+        run: echo "TRIVY_VULN_START=$(date +%s)" >> $GITHUB_ENV
+
+      - name: trivy:Scan SBOM
+        uses: anchore/scan-action@v6.1.0
+        with:
+          sbom: sbom-trivy.json
+          output-format: json
+          output-file: vuln-trivy.json
+          fail-build: false
+
+      - name: trivy:Record vuln-scan end & duration
+        run: |
+          VULN_END=$(date +%s)
+          echo "trivy vuln-scan took $((VULN_END - TRIVY_VULN_START)) seconds"
+
+      # ---- Final upload ----
+      - name: Upload all SBOMs & vulnerability reports
         uses: actions/upload-artifact@v4
         with:
-          name: sboms-and-vuln-reports
+          name: all-sboms-and-vulns
           path: |
-            sbom-cyclonedx.json
+            sbom-cdxgen.json
+            vuln-cdxgen.json
             sbom-syft.json
-            vuln-cyclonedx.json
             vuln-syft.json
+            sbom-trivy.json
+            vuln-trivy.json
