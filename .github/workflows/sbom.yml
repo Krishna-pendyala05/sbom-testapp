@@ -16,32 +16,34 @@ jobs:
         with:
           output: sbom-cyclonedx.xml
 
-      # ---- Syft SBOM (JSON) ----
+      # ---- Syft SBOM (SPDX JSON) ----
       - name: Generate Syft SBOM
-        uses: anchore/syft-action@v0.12.0
+        uses: anchore/sbom-action@v0.18.0
         with:
-          output: sbom-syft.json
-          format: json
+          path: .
+          format: spdx-json
+          output-file: sbom-syft.json
+          artifact-name: sbom-syft.spdx.json
 
-      # ---- Scan CycloneDX SBOM ----
-      - name: Scan CycloneDX SBOM with Grype
-        uses: anchore/grype-action@v0.12.0
+      # ---- Scan CycloneDX SBOM with Grype ----
+      - name: Scan CycloneDX SBOM
+        uses: anchore/scan-action@v6.1.0
         with:
           sbom: sbom-cyclonedx.xml
           output-format: json
-          output: vuln-cyclonedx.json
+          output-file: vuln-cyclonedx.json
 
-      # ---- Scan Syft SBOM ----
-      - name: Scan Syft SBOM with Grype
-        uses: anchore/grype-action@v0.12.0
+      # ---- Scan Syft SBOM with Grype ----
+      - name: Scan Syft SBOM
+        uses: anchore/scan-action@v6.1.0
         with:
           sbom: sbom-syft.json
           output-format: json
-          output: vuln-syft.json
+          output-file: vuln-syft.json
 
-      # ---- Upload everything ----
+      # ---- Upload all artifacts ----
       - name: Upload SBOMs & vulnerability reports
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: sboms-and-vuln-reports
           path: |
