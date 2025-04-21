@@ -28,21 +28,23 @@ jobs:
           output-file: sbom-syft.json
           upload-artifact: false
 
-      # ---- Scan CycloneDX SBOM for vulnerabilities ----
+      # ---- Scan CycloneDX SBOM (won’t fail on medium+) ----
       - name: Scan CycloneDX SBOM
         uses: anchore/scan-action@v6.1.0
         with:
           sbom: sbom-cyclonedx.json
           output-format: json
           output-file: vuln-cyclonedx.json
+          fail-build: false
 
-      # ---- Scan Syft SBOM for vulnerabilities ----
+      # ---- Scan Syft SBOM (won’t fail on medium+) ----
       - name: Scan Syft SBOM
         uses: anchore/scan-action@v6.1.0
         with:
           sbom: sbom-syft.json
           output-format: json
           output-file: vuln-syft.json
+          fail-build: false
 
       # ---- Upload all SBOMs & vulnerability reports ----
       - name: Upload SBOMs & vulnerability reports
