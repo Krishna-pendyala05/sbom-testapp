@@ -1,0 +1,764 @@
+[
+  {
+    "package": "safer-buffer",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:44:43.008Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "react",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:44:43.019Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "react-dom",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:44:43.041Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "window",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.459Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "cancelIdleCallback",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.479Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "captureEvents",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.524Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "clearInterval",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.558Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "clearTimeout",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.584Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "createImageBitmap",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.605Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "document",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.624Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "getComputedStyle",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.640Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "getSelection",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.653Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "matchMedia",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.667Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "navigator",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.682Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "moveBy",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.695Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "moveTo",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.709Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "postMessage",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.723Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "queueMicrotask",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.737Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "releaseEvents",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.752Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "reportError",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.770Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "requestAnimationFrame",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.782Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "requestIdleCallback",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.796Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "location",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.809Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "resizeBy",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.826Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "resizeTo",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.841Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "scrollBy",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.856Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "scrollTo",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.872Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "history",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.888Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "setInterval",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.905Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "setTimeout",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.923Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "structuredClone",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.938Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "localStorage",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.954Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "webkitCancelAnimationFrame",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.970Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "webkitRequestAnimationFrame",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.984Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "cookieStore",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.998Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "launchQueue",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.010Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "sharedStorage",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.022Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "documentPictureInPicture",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.034Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "fetchLater",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.046Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "sessionStorage",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.063Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "getDigitalGoodsService",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.078Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "getScreenDetails",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.091Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "queryLocalFonts",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.102Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "showDirectoryPicker",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.116Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "fetch",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.128Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "showOpenFilePicker",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.140Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "showSaveFilePicker",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.153Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "originAgentCluster",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.169Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "speechSynthesis",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.184Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "webkitRequestFileSystem",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.196Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "webkitResolveLocalFileSystemURL",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.209Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "__REACT_DEVTOOLS_GLOBAL_HOOK__",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.225Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "XMLHttpRequest",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.239Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "__reactRefreshInjected",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.254Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "PERSISTENT",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.268Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "customElements",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.285Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "addEventListener",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.299Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "dispatchEvent",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.311Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "innerWidth",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.324Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "removeEventListener",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.338Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "innerHeight",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.354Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "visualViewport",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.371Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "outerWidth",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.389Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "outerHeight",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.405Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "devicePixelRatio",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.422Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "clientInformation",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.437Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "styleMedia",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.451Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "trustedTypes",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.464Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "indexedDB",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.478Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "isSecureContext",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.490Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "cancelAnimationFrame",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:03.503Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "_http_agent",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.749Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "_http_client",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.756Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "_http_common",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.777Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "_http_incoming",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.795Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "_http_outgoing",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.813Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "_http_server",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.831Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "_stream_duplex",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.848Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "_stream_passthrough",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.865Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "_stream_readable",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.881Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "_stream_transform",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.897Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "_stream_wrap",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.914Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "_stream_writable",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.931Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "_tls_common",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.948Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "_tls_wrap",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.965Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "assert",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.175Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "async_hooks",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.188Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "buffer",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.199Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "child_process",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.211Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "cluster",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.225Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "console",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.239Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "constants",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.251Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "crypto",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.262Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "dgram",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.274Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "diagnostics_channel",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.285Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "dns",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.297Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "domain",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.310Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "events",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.321Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "fs",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.332Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "http",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.344Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "http2",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.355Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "https",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.367Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "inspector",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.378Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "module",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.389Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "net",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.401Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "os",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.411Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "path",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.423Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "perf_hooks",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.436Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "process",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.448Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "punycode",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.459Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "querystring",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.472Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "readline",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.484Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "repl",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.495Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "stream",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.508Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "string_decoder",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.520Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "sys",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.531Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "timers",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.543Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "tls",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.555Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "trace_events",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.568Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "tty",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.580Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "url",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.591Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "util",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.603Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "v8",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.615Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "vm",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.626Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "wasi",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.638Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "worker_threads",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.649Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "zlib",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:36.661Z",
+    "detected_by": "runtime-monitor"
+  }
+]

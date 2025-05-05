@@ -1,0 +1,1056 @@
+[
+  {
+    "package": "safer-buffer",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:44:42.919Z",
+    "detected_by": "server-monitor",
+    "version": "2.1.2",
+    "license": "MIT",
+    "purl": "pkg:npm/safer-buffer@2.1.2"
+  },
+  {
+    "package": "react",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:44:42.952Z",
+    "detected_by": "client-monitor",
+    "version": "19.1.0",
+    "license": "MIT",
+    "purl": "pkg:npm/react@19.1.0"
+  },
+  {
+    "package": "react-dom",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:44:42.969Z",
+    "detected_by": "client-monitor",
+    "version": "19.1.0",
+    "license": "MIT",
+    "purl": "pkg:npm/react-dom@19.1.0"
+  },
+  {
+    "package": "window",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:01.932Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "cancelIdleCallback",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:01.937Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "captureEvents",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:01.943Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "clearInterval",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:01.947Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "clearTimeout",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:01.951Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "createImageBitmap",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:01.959Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "document",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:01.964Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "getComputedStyle",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:01.970Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "getSelection",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:01.977Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "matchMedia",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:01.980Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "navigator",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:01.985Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "moveBy",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:01.991Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "moveTo",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:01.997Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "postMessage",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.002Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "queueMicrotask",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.010Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "releaseEvents",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.013Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "reportError",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.018Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "requestAnimationFrame",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.023Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "requestIdleCallback",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.030Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "location",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.040Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "resizeBy",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.046Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "resizeTo",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.051Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "scrollBy",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.056Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "scrollTo",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.062Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "history",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.067Z",
+    "detected_by": "client-monitor",
+    "version": "4.10.1",
+    "license": "MIT",
+    "purl": "pkg:npm/history@4.10.1"
+  },
+  {
+    "package": "setInterval",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.071Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "setTimeout",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.079Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "structuredClone",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.084Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "localStorage",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.090Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "webkitCancelAnimationFrame",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.095Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "webkitRequestAnimationFrame",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.098Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "cookieStore",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.103Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "launchQueue",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.109Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "sharedStorage",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.114Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "documentPictureInPicture",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.119Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "fetchLater",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.123Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "sessionStorage",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.126Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "getDigitalGoodsService",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.130Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "getScreenDetails",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.135Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "queryLocalFonts",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.140Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "showDirectoryPicker",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.144Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "fetch",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.148Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "showOpenFilePicker",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.152Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "showSaveFilePicker",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.157Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "originAgentCluster",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.160Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "speechSynthesis",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.163Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "webkitRequestFileSystem",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.167Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "webkitResolveLocalFileSystemURL",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.171Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "__REACT_DEVTOOLS_GLOBAL_HOOK__",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.178Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "XMLHttpRequest",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.182Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "__reactRefreshInjected",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.187Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "PERSISTENT",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.194Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "customElements",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.199Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "addEventListener",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.207Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "dispatchEvent",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.213Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "innerWidth",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.217Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "removeEventListener",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.223Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "innerHeight",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.235Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "visualViewport",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.241Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "outerWidth",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.246Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "outerHeight",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.250Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "devicePixelRatio",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.256Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "clientInformation",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.263Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "styleMedia",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.268Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "trustedTypes",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.274Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "indexedDB",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.277Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "isSecureContext",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.280Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "package": "cancelAnimationFrame",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:53:02.285Z",
+    "detected_by": "client-monitor"
+  },
+  {
+    "name": "_http_agent",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.644Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/_http_agent@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "_http_client",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.648Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/_http_client@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "_http_common",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.654Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/_http_common@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "_http_incoming",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.662Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/_http_incoming@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "_http_outgoing",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.666Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/_http_outgoing@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "_http_server",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.671Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/_http_server@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "_stream_duplex",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.678Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/_stream_duplex@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "_stream_passthrough",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.682Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/_stream_passthrough@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "_stream_readable",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.688Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/_stream_readable@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "_stream_transform",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.694Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/_stream_transform@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "_stream_wrap",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.700Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/_stream_wrap@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "_stream_writable",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.704Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/_stream_writable@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "_tls_common",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.712Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/_tls_common@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "_tls_wrap",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.718Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/_tls_wrap@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "assert",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.724Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/assert@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "async_hooks",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.731Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/async_hooks@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "buffer",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.738Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/buffer@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "child_process",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.745Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/child_process@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "cluster",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.751Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/cluster@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "console",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.756Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/console@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "constants",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.765Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/constants@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "crypto",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.770Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/crypto@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "dgram",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.779Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/dgram@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "diagnostics_channel",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.785Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/diagnostics_channel@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "dns",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.792Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/dns@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "domain",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.798Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/domain@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "events",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.805Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/events@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "fs",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.812Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/fs@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "http",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.816Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/http@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "http2",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.822Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/http2@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "https",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.830Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/https@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "inspector",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.835Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/inspector@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "module",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.841Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/module@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "net",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.850Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/net@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "os",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.856Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/os@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "path",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.863Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/path@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "perf_hooks",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.869Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/perf_hooks@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "process",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.875Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/process@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "punycode",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.882Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/punycode@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "querystring",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.888Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/querystring@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "readline",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.895Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/readline@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "repl",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.901Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/repl@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "stream",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.907Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/stream@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "string_decoder",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.915Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/string_decoder@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "sys",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.922Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/sys@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "timers",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.929Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/timers@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "tls",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.934Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/tls@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "trace_events",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.941Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/trace_events@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "tty",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.949Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/tty@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "url",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.956Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/url@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "util",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.962Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/util@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "v8",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.968Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/v8@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "vm",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.974Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/vm@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "wasi",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.983Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/wasi@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "worker_threads",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.989Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/worker_threads@v20.9.0",
+    "description": "Node.js built-in module"
+  },
+  {
+    "name": "zlib",
+    "version": "v20.9.0",
+    "type": "runtime",
+    "timestamp": "2025-05-05T17:58:35.996Z",
+    "detected_by": "node-monitor",
+    "module_type": "builtin",
+    "node_version": "v20.9.0",
+    "purl": "pkg:nodejs/zlib@v20.9.0",
+    "description": "Node.js built-in module"
+  }
+]
