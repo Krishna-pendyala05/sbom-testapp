@@ -19,10 +19,11 @@ jobs:
       - name: "cdxgen: Record SBOM start"
         run: echo "CDX_SBOM_START=$(date +%s)" >> $GITHUB_ENV
 
-      - name: "cdxgen: Install CLI & generate SBOM"
+      - name: "cdxgen: Generate SBOM (with resource usage)"
         run: |
-          npm install -g @cyclonedx/cdxgen
-          cdxgen -o sbom-cdxgen.json
+          echo "::group::cdxgen SBOM + resource usage"
+          /usr/bin/time -v cdxgen -o sbom-cdxgen.json 2>&1 | tee cdxgen-sbom-resource.log
+          echo "::endgroup::"
 
       - name: "cdxgen: Record SBOM duration"
         run: |
@@ -32,13 +33,19 @@ jobs:
       - name: "cdxgen: Record vuln-scan start"
         run: echo "CDX_SCAN_START=$(date +%s)" >> $GITHUB_ENV
 
-      - name: "cdxgen: Scan SBOM"
+      - name: "cdxgen: Scan SBOM (with resource usage)"
         uses: anchore/scan-action@v6.1.0
         with:
           sbom: sbom-cdxgen.json
           output-format: json
           output-file: vuln-cdxgen.json
           fail-build: false
+      - name: "cdxgen: Capture scan resource usage"
+        run: |
+          echo "::group::cdxgen vuln-scan resource usage"
+          # rerun scan under time to capture resources:
+          /usr/bin/time -v anchore-cli image vuln --sbom sbom-cdxgen.json 2>&1 | tee cdxgen-scan-resource.log
+          echo "::endgroup::"
 
       - name: "cdxgen: Record vuln-scan duration"
         run: |
@@ -49,13 +56,11 @@ jobs:
       - name: "syft: Record SBOM start"
         run: echo "SYFT_SBOM_START=$(date +%s)" >> $GITHUB_ENV
 
-      - name: "syft: Generate SBOM"
-        uses: anchore/sbom-action@v0.18.0
-        with:
-          path: .
-          format: json
-          output-file: sbom-syft.json
-          upload-artifact: false
+      - name: "syft: Generate SBOM (with resource usage)"
+        run: |
+          echo "::group::syft SBOM + resource usage"
+          /usr/bin/time -v syft . -o json --file sbom-syft.json 2>&1 | tee syft-sbom-resource.log
+          echo "::endgroup::"
 
       - name: "syft: Record SBOM duration"
         run: |
@@ -65,13 +70,11 @@ jobs:
       - name: "syft: Record vuln-scan start"
         run: echo "SYFT_SCAN_START=$(date +%s)" >> $GITHUB_ENV
 
-      - name: "syft: Scan SBOM"
-        uses: anchore/scan-action@v6.1.0
-        with:
-          sbom: sbom-syft.json
-          output-format: json
-          output-file: vuln-syft.json
-          fail-build: false
+      - name: "syft: Scan SBOM (with resource usage)"
+        run: |
+          echo "::group::syft vuln-scan resource usage"
+          /usr/bin/time -v anchore-cli image vuln --sbom sbom-syft.json 2>&1 | tee syft-scan-resource.log
+          echo "::endgroup::"
 
       - name: "syft: Record vuln-scan duration"
         run: |
@@ -85,11 +88,13 @@ jobs:
       - name: "trivy: Install Trivy CLI"
         uses: aquasecurity/setup-trivy@v0.2.3
         with:
-          version: v0.61.0          # pick a released version :contentReference[oaicite:0]{index=0}
+          version: v0.61.0
 
-      - name: "trivy: Generate FS-based CycloneDX SBOM"
-        run: trivy fs --list-all-pkgs --format cyclonedx --output sbom-trivy.json .
-        # parses your repo’s package manifests into CycloneDX JSON :contentReference[oaicite:1]{index=1}
+      - name: "trivy: Generate FS-based CycloneDX SBOM (with resource usage)"
+        run: |
+          echo "::group::trivy SBOM + resource usage"
+          /usr/bin/time -v trivy fs --list-all-pkgs --format cyclonedx --output sbom-trivy.json . 2>&1 | tee trivy-sbom-resource.log
+          echo "::endgroup::"
 
       - name: "trivy: Record SBOM duration"
         run: |
@@ -99,13 +104,11 @@ jobs:
       - name: "trivy: Record vuln-scan start"
         run: echo "TRIVY_SCAN_START=$(date +%s)" >> $GITHUB_ENV
 
-      - name: "trivy: Scan SBOM"
-        uses: anchore/scan-action@v6.1.0
-        with:
-          sbom: sbom-trivy.json
-          output-format: json
-          output-file: vuln-trivy.json
-          fail-build: false
+      - name: "trivy: Scan SBOM (with resource usage)"
+        run: |
+          echo "::group::trivy vuln-scan resource usage"
+          /usr/bin/time -v anchore-cli image vuln --sbom sbom-trivy.json 2>&1 | tee trivy-scan-resource.log
+          echo "::endgroup::"
 
       - name: "trivy: Record vuln-scan duration"
         run: |
@@ -120,7 +123,13 @@ jobs:
           path: |
             sbom-cdxgen.json
             vuln-cdxgen.json
+            cdxgen-sbom-resource.log
+            cdxgen-scan-resource.log
             sbom-syft.json
             vuln-syft.json
+            syft-sbom-resource.log
+            syft-scan-resource.log
             sbom-trivy.json
             vuln-trivy.json
+            trivy-sbom-resource.log
+            trivy-scan-resource.log
