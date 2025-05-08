@@ -1,4 +1,5 @@
-// nodeMonitor.js
+
+// Node.js Runtime Dependency Monitor with Enhanced Metadata Extraction
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
@@ -26,7 +27,6 @@ const builtinModules = (() => {
   } catch (err) {
     try {
       // Fallback for older Node.js versions using the 'builtin-modules' package
-      // Note: You would need to install this with: npm install builtin-modules
       return require('builtin-modules');
     } catch (fallbackErr) {
       // Last resort fallback - minimal list of common built-ins
@@ -304,3 +304,4 @@ app.listen(PORT, () => {
 });
 
 console.log('Enhanced Node.js dependency monitoring enabled (including built-in modules)');
+      

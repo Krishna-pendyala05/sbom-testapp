@@ -1,447 +1,9 @@
 [
   {
-    "package": "safer-buffer",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:44:42.919Z",
-    "detected_by": "server-monitor",
-    "version": "2.1.2",
-    "license": "MIT",
-    "purl": "pkg:npm/safer-buffer@2.1.2"
-  },
-  {
-    "package": "react",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:44:42.952Z",
-    "detected_by": "client-monitor",
-    "version": "19.1.0",
-    "license": "MIT",
-    "purl": "pkg:npm/react@19.1.0"
-  },
-  {
-    "package": "react-dom",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:44:42.969Z",
-    "detected_by": "client-monitor",
-    "version": "19.1.0",
-    "license": "MIT",
-    "purl": "pkg:npm/react-dom@19.1.0"
-  },
-  {
-    "package": "window",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:01.932Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "cancelIdleCallback",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:01.937Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "captureEvents",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:01.943Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "clearInterval",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:01.947Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "clearTimeout",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:01.951Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "createImageBitmap",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:01.959Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "document",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:01.964Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "getComputedStyle",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:01.970Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "getSelection",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:01.977Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "matchMedia",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:01.980Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "navigator",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:01.985Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "moveBy",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:01.991Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "moveTo",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:01.997Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "postMessage",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.002Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "queueMicrotask",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.010Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "releaseEvents",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.013Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "reportError",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.018Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "requestAnimationFrame",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.023Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "requestIdleCallback",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.030Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "location",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.040Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "resizeBy",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.046Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "resizeTo",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.051Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "scrollBy",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.056Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "scrollTo",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.062Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "history",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.067Z",
-    "detected_by": "client-monitor",
-    "version": "4.10.1",
-    "license": "MIT",
-    "purl": "pkg:npm/history@4.10.1"
-  },
-  {
-    "package": "setInterval",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.071Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "setTimeout",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.079Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "structuredClone",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.084Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "localStorage",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.090Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "webkitCancelAnimationFrame",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.095Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "webkitRequestAnimationFrame",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.098Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "cookieStore",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.103Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "launchQueue",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.109Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "sharedStorage",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.114Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "documentPictureInPicture",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.119Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "fetchLater",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.123Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "sessionStorage",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.126Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "getDigitalGoodsService",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.130Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "getScreenDetails",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.135Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "queryLocalFonts",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.140Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "showDirectoryPicker",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.144Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "fetch",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.148Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "showOpenFilePicker",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.152Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "showSaveFilePicker",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.157Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "originAgentCluster",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.160Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "speechSynthesis",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.163Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "webkitRequestFileSystem",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.167Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "webkitResolveLocalFileSystemURL",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.171Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "__REACT_DEVTOOLS_GLOBAL_HOOK__",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.178Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "XMLHttpRequest",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.182Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "__reactRefreshInjected",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.187Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "PERSISTENT",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.194Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "customElements",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.199Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "addEventListener",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.207Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "dispatchEvent",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.213Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "innerWidth",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.217Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "removeEventListener",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.223Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "innerHeight",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.235Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "visualViewport",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.241Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "outerWidth",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.246Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "outerHeight",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.250Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "devicePixelRatio",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.256Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "clientInformation",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.263Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "styleMedia",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.268Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "trustedTypes",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.274Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "indexedDB",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.277Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "isSecureContext",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.280Z",
-    "detected_by": "client-monitor"
-  },
-  {
-    "package": "cancelAnimationFrame",
-    "type": "runtime",
-    "timestamp": "2025-05-05T17:53:02.285Z",
-    "detected_by": "client-monitor"
-  },
-  {
     "name": "_http_agent",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.644Z",
+    "timestamp": "2025-05-08T02:00:25.533Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -452,7 +14,7 @@
     "name": "_http_client",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.648Z",
+    "timestamp": "2025-05-08T02:00:25.535Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -463,7 +25,7 @@
     "name": "_http_common",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.654Z",
+    "timestamp": "2025-05-08T02:00:25.538Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -474,7 +36,7 @@
     "name": "_http_incoming",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.662Z",
+    "timestamp": "2025-05-08T02:00:25.542Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -485,7 +47,7 @@
     "name": "_http_outgoing",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.666Z",
+    "timestamp": "2025-05-08T02:00:25.545Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -496,7 +58,7 @@
     "name": "_http_server",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.671Z",
+    "timestamp": "2025-05-08T02:00:25.549Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -507,7 +69,7 @@
     "name": "_stream_duplex",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.678Z",
+    "timestamp": "2025-05-08T02:00:25.553Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -518,7 +80,7 @@
     "name": "_stream_passthrough",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.682Z",
+    "timestamp": "2025-05-08T02:00:25.555Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -529,7 +91,7 @@
     "name": "_stream_readable",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.688Z",
+    "timestamp": "2025-05-08T02:00:25.558Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -540,7 +102,7 @@
     "name": "_stream_transform",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.694Z",
+    "timestamp": "2025-05-08T02:00:25.562Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -551,7 +113,7 @@
     "name": "_stream_wrap",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.700Z",
+    "timestamp": "2025-05-08T02:00:25.566Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -562,7 +124,7 @@
     "name": "_stream_writable",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.704Z",
+    "timestamp": "2025-05-08T02:00:25.570Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -573,7 +135,7 @@
     "name": "_tls_common",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.712Z",
+    "timestamp": "2025-05-08T02:00:25.573Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -584,7 +146,7 @@
     "name": "_tls_wrap",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.718Z",
+    "timestamp": "2025-05-08T02:00:25.576Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -595,7 +157,7 @@
     "name": "assert",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.724Z",
+    "timestamp": "2025-05-08T02:00:25.581Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -606,7 +168,7 @@
     "name": "async_hooks",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.731Z",
+    "timestamp": "2025-05-08T02:00:25.586Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -617,7 +179,7 @@
     "name": "buffer",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.738Z",
+    "timestamp": "2025-05-08T02:00:25.588Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -628,7 +190,7 @@
     "name": "child_process",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.745Z",
+    "timestamp": "2025-05-08T02:00:25.591Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -639,7 +201,7 @@
     "name": "cluster",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.751Z",
+    "timestamp": "2025-05-08T02:00:25.595Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -650,7 +212,7 @@
     "name": "console",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.756Z",
+    "timestamp": "2025-05-08T02:00:25.600Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -661,7 +223,7 @@
     "name": "constants",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.765Z",
+    "timestamp": "2025-05-08T02:00:25.603Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -672,7 +234,7 @@
     "name": "crypto",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.770Z",
+    "timestamp": "2025-05-08T02:00:25.606Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -683,7 +245,7 @@
     "name": "dgram",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.779Z",
+    "timestamp": "2025-05-08T02:00:25.609Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -694,7 +256,7 @@
     "name": "diagnostics_channel",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.785Z",
+    "timestamp": "2025-05-08T02:00:25.615Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -705,7 +267,7 @@
     "name": "dns",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.792Z",
+    "timestamp": "2025-05-08T02:00:25.620Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -716,7 +278,7 @@
     "name": "domain",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.798Z",
+    "timestamp": "2025-05-08T02:00:25.626Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -727,7 +289,7 @@
     "name": "events",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.805Z",
+    "timestamp": "2025-05-08T02:00:25.632Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -738,7 +300,7 @@
     "name": "fs",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.812Z",
+    "timestamp": "2025-05-08T02:00:25.639Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -749,7 +311,7 @@
     "name": "http",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.816Z",
+    "timestamp": "2025-05-08T02:00:25.644Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -760,7 +322,7 @@
     "name": "http2",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.822Z",
+    "timestamp": "2025-05-08T02:00:25.649Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -771,7 +333,7 @@
     "name": "https",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.830Z",
+    "timestamp": "2025-05-08T02:00:25.655Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -782,7 +344,7 @@
     "name": "inspector",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.835Z",
+    "timestamp": "2025-05-08T02:00:25.659Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -793,7 +355,7 @@
     "name": "module",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.841Z",
+    "timestamp": "2025-05-08T02:00:25.667Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -804,7 +366,7 @@
     "name": "net",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.850Z",
+    "timestamp": "2025-05-08T02:00:25.671Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -815,7 +377,7 @@
     "name": "os",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.856Z",
+    "timestamp": "2025-05-08T02:00:25.676Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -826,7 +388,7 @@
     "name": "path",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.863Z",
+    "timestamp": "2025-05-08T02:00:25.685Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -837,7 +399,7 @@
     "name": "perf_hooks",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.869Z",
+    "timestamp": "2025-05-08T02:00:25.690Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -848,7 +410,7 @@
     "name": "process",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.875Z",
+    "timestamp": "2025-05-08T02:00:25.699Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -859,7 +421,7 @@
     "name": "punycode",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.882Z",
+    "timestamp": "2025-05-08T02:00:25.705Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -870,7 +432,7 @@
     "name": "querystring",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.888Z",
+    "timestamp": "2025-05-08T02:00:25.719Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -881,7 +443,7 @@
     "name": "readline",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.895Z",
+    "timestamp": "2025-05-08T02:00:25.725Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -892,7 +454,7 @@
     "name": "repl",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.901Z",
+    "timestamp": "2025-05-08T02:00:25.733Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -903,7 +465,7 @@
     "name": "stream",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.907Z",
+    "timestamp": "2025-05-08T02:00:25.740Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -914,7 +476,7 @@
     "name": "string_decoder",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.915Z",
+    "timestamp": "2025-05-08T02:00:25.750Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -925,7 +487,7 @@
     "name": "sys",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.922Z",
+    "timestamp": "2025-05-08T02:00:25.759Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -936,7 +498,7 @@
     "name": "timers",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.929Z",
+    "timestamp": "2025-05-08T02:00:25.766Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -947,7 +509,7 @@
     "name": "tls",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.934Z",
+    "timestamp": "2025-05-08T02:00:25.772Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -958,7 +520,7 @@
     "name": "trace_events",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.941Z",
+    "timestamp": "2025-05-08T02:00:25.776Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -969,7 +531,7 @@
     "name": "tty",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.949Z",
+    "timestamp": "2025-05-08T02:00:25.785Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -980,7 +542,7 @@
     "name": "url",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.956Z",
+    "timestamp": "2025-05-08T02:00:25.791Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -991,7 +553,7 @@
     "name": "util",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.962Z",
+    "timestamp": "2025-05-08T02:00:25.799Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -1002,7 +564,7 @@
     "name": "v8",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.968Z",
+    "timestamp": "2025-05-08T02:00:25.806Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -1013,7 +575,7 @@
     "name": "vm",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.974Z",
+    "timestamp": "2025-05-08T02:00:25.813Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -1024,7 +586,7 @@
     "name": "wasi",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.983Z",
+    "timestamp": "2025-05-08T02:00:25.822Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -1035,7 +597,7 @@
     "name": "worker_threads",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.989Z",
+    "timestamp": "2025-05-08T02:00:25.828Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
@@ -1046,11 +608,666 @@
     "name": "zlib",
     "version": "v20.9.0",
     "type": "runtime",
-    "timestamp": "2025-05-05T17:58:35.996Z",
+    "timestamp": "2025-05-08T02:00:25.838Z",
     "detected_by": "node-monitor",
     "module_type": "builtin",
     "node_version": "v20.9.0",
     "purl": "pkg:nodejs/zlib@v20.9.0",
     "description": "Node.js built-in module"
+  },
+  {
+    "name": "safer-buffer",
+    "version": "2.1.2",
+    "license": "MIT",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:33.640Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "author": "{\"name\":\"Nikita Skovoroda\",\"email\":\"chalkerx@gmail.com\",\"url\":\"https://github.com/ChALkeR\"}",
+    "repository": "git+https://github.com/ChALkeR/safer-buffer.git",
+    "purl": "pkg:npm/safer-buffer@2.1.2",
+    "description": "Modern Buffer API polyfill without footguns"
+  },
+  {
+    "name": "window",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:33.655Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'window'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "innerHeight",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:33.665Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'innerHeight'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "visualViewport",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:33.672Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'visualViewport'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "outerWidth",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:33.680Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'outerWidth'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "outerHeight",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:33.689Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'outerHeight'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "devicePixelRatio",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:33.699Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'devicePixelRatio'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "document",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:33.708Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'document'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "clientInformation",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:33.718Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'clientInformation'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "styleMedia",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:33.728Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'styleMedia'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "trustedTypes",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:33.739Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'trustedTypes'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "indexedDB",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:33.757Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'indexedDB'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "navigator",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:33.771Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'navigator'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "isSecureContext",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:33.788Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'isSecureContext'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "cancelAnimationFrame",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:33.808Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'cancelAnimationFrame'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "cancelIdleCallback",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:33.828Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'cancelIdleCallback'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "captureEvents",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:33.842Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'captureEvents'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "clearInterval",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:33.855Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'clearInterval'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "clearTimeout",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:33.870Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'clearTimeout'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "createImageBitmap",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:33.884Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'createImageBitmap'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "getComputedStyle",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:33.903Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'getComputedStyle'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "getSelection",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:33.917Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'getSelection'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "matchMedia",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:33.936Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'matchMedia'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "location",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:33.950Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'location'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "moveBy",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:33.960Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'moveBy'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "moveTo",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:33.969Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'moveTo'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "postMessage",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:33.977Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'postMessage'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "history",
+    "version": "4.10.1",
+    "license": "MIT",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:33.986Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "author": "Michael Jackson",
+    "repository": "ReactTraining/history",
+    "purl": "pkg:npm/history@4.10.1",
+    "description": "Manage session history with JavaScript"
+  },
+  {
+    "name": "queueMicrotask",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:33.995Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'queueMicrotask'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "releaseEvents",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.007Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'releaseEvents'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "reportError",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.016Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'reportError'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "requestAnimationFrame",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.025Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'requestAnimationFrame'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "requestIdleCallback",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.033Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'requestIdleCallback'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "resizeBy",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.042Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'resizeBy'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "resizeTo",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.051Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'resizeTo'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "localStorage",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.058Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'localStorage'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "scrollBy",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.067Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'scrollBy'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "scrollTo",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.076Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'scrollTo'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "setInterval",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.084Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'setInterval'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "setTimeout",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.092Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'setTimeout'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "structuredClone",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.100Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'structuredClone'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "sessionStorage",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.108Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'sessionStorage'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "webkitCancelAnimationFrame",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.117Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'webkitCancelAnimationFrame'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "webkitRequestAnimationFrame",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.126Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'webkitRequestAnimationFrame'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "cookieStore",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.135Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'cookieStore'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "launchQueue",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.143Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'launchQueue'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "sharedStorage",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.153Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'sharedStorage'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "fetch",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.162Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'fetch'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "documentPictureInPicture",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.170Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'documentPictureInPicture'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "fetchLater",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.179Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'fetchLater'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "getDigitalGoodsService",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.188Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'getDigitalGoodsService'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "getScreenDetails",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.199Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'getScreenDetails'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "queryLocalFonts",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.209Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'queryLocalFonts'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "XMLHttpRequest",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.220Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'XMLHttpRequest'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "showDirectoryPicker",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.231Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'showDirectoryPicker'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "showOpenFilePicker",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.242Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'showOpenFilePicker'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "showSaveFilePicker",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.256Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'showSaveFilePicker'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "customElements",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.270Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'customElements'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "originAgentCluster",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.283Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'originAgentCluster'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "speechSynthesis",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.292Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'speechSynthesis'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "webkitRequestFileSystem",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.305Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'webkitRequestFileSystem'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "innerWidth",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.318Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'innerWidth'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "webkitResolveLocalFileSystemURL",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.336Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'webkitResolveLocalFileSystemURL'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "__REACT_DEVTOOLS_GLOBAL_HOOK__",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.348Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module '__REACT_DEVTOOLS_GLOBAL_HOOK__'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "__reactRefreshInjected",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.363Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module '__reactRefreshInjected'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "PERSISTENT",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.375Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'PERSISTENT'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "addEventListener",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.386Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'addEventListener'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "dispatchEvent",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.398Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'dispatchEvent'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "removeEventListener",
+    "version": "unknown",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.415Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "error": "Could not resolve module: Cannot find module 'removeEventListener'\nRequire stack:\n- C:\\Users\\hp\\Desktop\\Murali\\sbom-testapp-1\\nodeMonitor.js"
+  },
+  {
+    "name": "react",
+    "version": "19.1.0",
+    "license": "MIT",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.428Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "author": "unknown",
+    "repository": "https://github.com/facebook/react.git",
+    "purl": "pkg:npm/react@19.1.0",
+    "description": "React is a JavaScript library for building user interfaces."
+  },
+  {
+    "name": "react-dom",
+    "version": "19.1.0",
+    "license": "MIT",
+    "type": "runtime",
+    "timestamp": "2025-05-08T02:00:34.440Z",
+    "detected_by": "node-monitor",
+    "module_type": "third-party",
+    "author": "unknown",
+    "repository": "https://github.com/facebook/react.git",
+    "purl": "pkg:npm/react-dom@19.1.0",
+    "description": "React package for working with the DOM."
   }
 ]

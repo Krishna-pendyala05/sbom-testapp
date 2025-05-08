@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import { reportDependency } from './clientMonitor';
 import DependencyViewer from './DependencyViewer';
+import PerformanceMonitor from './PerformanceMonitor';
 
 function PluginLoader({ pluginName }) {
   const [plugin, setPlugin] = useState(null);
@@ -182,6 +183,12 @@ function App() {
               <PluginLoader pluginName={activePlugin} />
             </div>
           )}
+        </div>
+
+        <div className="test-case">
+          <h2>Test 4: External Component Dependencies</h2>
+          <p>Tests dependencies loaded through a separate component</p>
+          <PerformanceMonitor />
         </div>
 
         <div className="instructions">
