@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:7c9a333f-9091-495d-bbe6-7812cb411275",
+  "serialNumber": "urn:uuid:6c843b17-760c-4cd2-94a8-121a128467bf",
   "version": 1,
   "metadata": {
-    "timestamp": "2025-05-08T03:53:21+02:00",
+    "timestamp": "2025-05-08T07:37:12+02:00",
     "tools": {
       "components": [
         {
@@ -79389,1614 +79389,6 @@
     },
     {
       "type": "library",
-      "name": "window",
-      "version": "unknown",
-      "purl": "pkg:pypi/window@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:02.459Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "cancelIdleCallback",
-      "version": "unknown",
-      "purl": "pkg:pypi/cancelIdleCallback@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:02.479Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "captureEvents",
-      "version": "unknown",
-      "purl": "pkg:pypi/captureEvents@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:02.524Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "clearInterval",
-      "version": "unknown",
-      "purl": "pkg:pypi/clearInterval@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:02.558Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "clearTimeout",
-      "version": "unknown",
-      "purl": "pkg:pypi/clearTimeout@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:02.584Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "createImageBitmap",
-      "version": "unknown",
-      "purl": "pkg:pypi/createImageBitmap@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:02.605Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "document",
-      "version": "unknown",
-      "purl": "pkg:pypi/document@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:02.624Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "getComputedStyle",
-      "version": "unknown",
-      "purl": "pkg:pypi/getComputedStyle@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:02.640Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "getSelection",
-      "version": "unknown",
-      "purl": "pkg:pypi/getSelection@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:02.653Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "matchMedia",
-      "version": "unknown",
-      "purl": "pkg:pypi/matchMedia@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:02.667Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "navigator",
-      "version": "unknown",
-      "purl": "pkg:pypi/navigator@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:02.682Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "moveBy",
-      "version": "unknown",
-      "purl": "pkg:pypi/moveBy@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:02.695Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "moveTo",
-      "version": "unknown",
-      "purl": "pkg:pypi/moveTo@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:02.709Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "postMessage",
-      "version": "unknown",
-      "purl": "pkg:pypi/postMessage@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:02.723Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "queueMicrotask",
-      "version": "unknown",
-      "purl": "pkg:pypi/queueMicrotask@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:02.737Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "releaseEvents",
-      "version": "unknown",
-      "purl": "pkg:pypi/releaseEvents@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:02.752Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "reportError",
-      "version": "unknown",
-      "purl": "pkg:pypi/reportError@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:02.770Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "requestAnimationFrame",
-      "version": "unknown",
-      "purl": "pkg:pypi/requestAnimationFrame@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:02.782Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "requestIdleCallback",
-      "version": "unknown",
-      "purl": "pkg:pypi/requestIdleCallback@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:02.796Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "location",
-      "version": "unknown",
-      "purl": "pkg:pypi/location@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:02.809Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "resizeBy",
-      "version": "unknown",
-      "purl": "pkg:pypi/resizeBy@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:02.826Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "resizeTo",
-      "version": "unknown",
-      "purl": "pkg:pypi/resizeTo@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:02.841Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "scrollBy",
-      "version": "unknown",
-      "purl": "pkg:pypi/scrollBy@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:02.856Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "scrollTo",
-      "version": "unknown",
-      "purl": "pkg:pypi/scrollTo@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:02.872Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "setInterval",
-      "version": "unknown",
-      "purl": "pkg:pypi/setInterval@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:02.905Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "setTimeout",
-      "version": "unknown",
-      "purl": "pkg:pypi/setTimeout@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:02.923Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "structuredClone",
-      "version": "unknown",
-      "purl": "pkg:pypi/structuredClone@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:02.938Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "localStorage",
-      "version": "unknown",
-      "purl": "pkg:pypi/localStorage@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:02.954Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "webkitCancelAnimationFrame",
-      "version": "unknown",
-      "purl": "pkg:pypi/webkitCancelAnimationFrame@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:02.970Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "webkitRequestAnimationFrame",
-      "version": "unknown",
-      "purl": "pkg:pypi/webkitRequestAnimationFrame@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:02.984Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "cookieStore",
-      "version": "unknown",
-      "purl": "pkg:pypi/cookieStore@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:02.998Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "launchQueue",
-      "version": "unknown",
-      "purl": "pkg:pypi/launchQueue@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.010Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "sharedStorage",
-      "version": "unknown",
-      "purl": "pkg:pypi/sharedStorage@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.022Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "documentPictureInPicture",
-      "version": "unknown",
-      "purl": "pkg:pypi/documentPictureInPicture@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.034Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "fetchLater",
-      "version": "unknown",
-      "purl": "pkg:pypi/fetchLater@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.046Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "sessionStorage",
-      "version": "unknown",
-      "purl": "pkg:pypi/sessionStorage@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.063Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "getDigitalGoodsService",
-      "version": "unknown",
-      "purl": "pkg:pypi/getDigitalGoodsService@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.078Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "getScreenDetails",
-      "version": "unknown",
-      "purl": "pkg:pypi/getScreenDetails@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.091Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "queryLocalFonts",
-      "version": "unknown",
-      "purl": "pkg:pypi/queryLocalFonts@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.102Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "showDirectoryPicker",
-      "version": "unknown",
-      "purl": "pkg:pypi/showDirectoryPicker@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.116Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "fetch",
-      "version": "unknown",
-      "purl": "pkg:pypi/fetch@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.128Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "showOpenFilePicker",
-      "version": "unknown",
-      "purl": "pkg:pypi/showOpenFilePicker@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.140Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "showSaveFilePicker",
-      "version": "unknown",
-      "purl": "pkg:pypi/showSaveFilePicker@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.153Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "originAgentCluster",
-      "version": "unknown",
-      "purl": "pkg:pypi/originAgentCluster@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.169Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "speechSynthesis",
-      "version": "unknown",
-      "purl": "pkg:pypi/speechSynthesis@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.184Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "webkitRequestFileSystem",
-      "version": "unknown",
-      "purl": "pkg:pypi/webkitRequestFileSystem@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.196Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "webkitResolveLocalFileSystemURL",
-      "version": "unknown",
-      "purl": "pkg:pypi/webkitResolveLocalFileSystemURL@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.209Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "__REACT_DEVTOOLS_GLOBAL_HOOK__",
-      "version": "unknown",
-      "purl": "pkg:pypi/__REACT_DEVTOOLS_GLOBAL_HOOK__@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.225Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "XMLHttpRequest",
-      "version": "unknown",
-      "purl": "pkg:pypi/XMLHttpRequest@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.239Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "__reactRefreshInjected",
-      "version": "unknown",
-      "purl": "pkg:pypi/__reactRefreshInjected@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.254Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "PERSISTENT",
-      "version": "unknown",
-      "purl": "pkg:pypi/PERSISTENT@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.268Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "customElements",
-      "version": "unknown",
-      "purl": "pkg:pypi/customElements@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.285Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "addEventListener",
-      "version": "unknown",
-      "purl": "pkg:pypi/addEventListener@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.299Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "dispatchEvent",
-      "version": "unknown",
-      "purl": "pkg:pypi/dispatchEvent@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.311Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "innerWidth",
-      "version": "unknown",
-      "purl": "pkg:pypi/innerWidth@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.324Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "removeEventListener",
-      "version": "unknown",
-      "purl": "pkg:pypi/removeEventListener@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.338Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "innerHeight",
-      "version": "unknown",
-      "purl": "pkg:pypi/innerHeight@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.354Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "visualViewport",
-      "version": "unknown",
-      "purl": "pkg:pypi/visualViewport@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.371Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "outerWidth",
-      "version": "unknown",
-      "purl": "pkg:pypi/outerWidth@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.389Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "outerHeight",
-      "version": "unknown",
-      "purl": "pkg:pypi/outerHeight@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.405Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "devicePixelRatio",
-      "version": "unknown",
-      "purl": "pkg:pypi/devicePixelRatio@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.422Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "clientInformation",
-      "version": "unknown",
-      "purl": "pkg:pypi/clientInformation@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.437Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "styleMedia",
-      "version": "unknown",
-      "purl": "pkg:pypi/styleMedia@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.451Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "trustedTypes",
-      "version": "unknown",
-      "purl": "pkg:pypi/trustedTypes@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.464Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "indexedDB",
-      "version": "unknown",
-      "purl": "pkg:pypi/indexedDB@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.478Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "isSecureContext",
-      "version": "unknown",
-      "purl": "pkg:pypi/isSecureContext@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.490Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "cancelAnimationFrame",
-      "version": "unknown",
-      "purl": "pkg:pypi/cancelAnimationFrame@unknown",
-      "properties": [
-        {
-          "name": "detection-method",
-          "value": "runtime-monitoring"
-        },
-        {
-          "name": "detection-type",
-          "value": "runtime"
-        },
-        {
-          "name": "detection-time",
-          "value": "2025-05-05T17:53:03.503Z"
-        },
-        {
-          "name": "license",
-          "value": "unknown"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "name": "_http_agent",
       "version": "unknown",
       "purl": "pkg:pypi/_http_agent@unknown",
@@ -81011,7 +79403,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:35.749Z"
+          "value": "2025-05-08T04:57:08.968Z"
         },
         {
           "name": "license",
@@ -81035,7 +79427,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:35.756Z"
+          "value": "2025-05-08T04:57:08.982Z"
         },
         {
           "name": "license",
@@ -81059,7 +79451,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:35.777Z"
+          "value": "2025-05-08T04:57:08.998Z"
         },
         {
           "name": "license",
@@ -81083,7 +79475,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:35.795Z"
+          "value": "2025-05-08T04:57:09.021Z"
         },
         {
           "name": "license",
@@ -81107,7 +79499,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:35.813Z"
+          "value": "2025-05-08T04:57:09.050Z"
         },
         {
           "name": "license",
@@ -81131,7 +79523,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:35.831Z"
+          "value": "2025-05-08T04:57:09.078Z"
         },
         {
           "name": "license",
@@ -81155,7 +79547,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:35.848Z"
+          "value": "2025-05-08T04:57:09.106Z"
         },
         {
           "name": "license",
@@ -81179,7 +79571,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:35.865Z"
+          "value": "2025-05-08T04:57:09.125Z"
         },
         {
           "name": "license",
@@ -81203,7 +79595,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:35.881Z"
+          "value": "2025-05-08T04:57:09.147Z"
         },
         {
           "name": "license",
@@ -81227,7 +79619,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:35.897Z"
+          "value": "2025-05-08T04:57:09.170Z"
         },
         {
           "name": "license",
@@ -81251,7 +79643,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:35.914Z"
+          "value": "2025-05-08T04:57:09.194Z"
         },
         {
           "name": "license",
@@ -81275,7 +79667,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:35.931Z"
+          "value": "2025-05-08T04:57:09.216Z"
         },
         {
           "name": "license",
@@ -81299,7 +79691,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:35.948Z"
+          "value": "2025-05-08T04:57:09.238Z"
         },
         {
           "name": "license",
@@ -81323,7 +79715,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:35.965Z"
+          "value": "2025-05-08T04:57:09.260Z"
         },
         {
           "name": "license",
@@ -81347,7 +79739,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.175Z"
+          "value": "2025-05-08T04:57:09.279Z"
         },
         {
           "name": "license",
@@ -81371,7 +79763,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.188Z"
+          "value": "2025-05-08T04:57:09.442Z"
         },
         {
           "name": "license",
@@ -81395,7 +79787,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.211Z"
+          "value": "2025-05-08T04:57:09.660Z"
         },
         {
           "name": "license",
@@ -81419,7 +79811,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.225Z"
+          "value": "2025-05-08T04:57:09.678Z"
         },
         {
           "name": "license",
@@ -81443,7 +79835,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.239Z"
+          "value": "2025-05-08T04:57:09.698Z"
         },
         {
           "name": "license",
@@ -81467,7 +79859,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.251Z"
+          "value": "2025-05-08T04:57:09.719Z"
         },
         {
           "name": "license",
@@ -81491,7 +79883,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.262Z"
+          "value": "2025-05-08T04:57:09.739Z"
         },
         {
           "name": "license",
@@ -81515,7 +79907,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.274Z"
+          "value": "2025-05-08T04:57:09.758Z"
         },
         {
           "name": "license",
@@ -81539,7 +79931,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.285Z"
+          "value": "2025-05-08T04:57:09.774Z"
         },
         {
           "name": "license",
@@ -81563,7 +79955,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.297Z"
+          "value": "2025-05-08T04:57:09.796Z"
         },
         {
           "name": "license",
@@ -81587,7 +79979,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.310Z"
+          "value": "2025-05-08T04:57:09.820Z"
         },
         {
           "name": "license",
@@ -81611,7 +80003,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.332Z"
+          "value": "2025-05-08T04:57:09.848Z"
         },
         {
           "name": "license",
@@ -81635,7 +80027,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.344Z"
+          "value": "2025-05-08T04:57:09.865Z"
         },
         {
           "name": "license",
@@ -81659,7 +80051,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.355Z"
+          "value": "2025-05-08T04:57:09.880Z"
         },
         {
           "name": "license",
@@ -81683,7 +80075,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.367Z"
+          "value": "2025-05-08T04:57:09.897Z"
         },
         {
           "name": "license",
@@ -81707,7 +80099,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.378Z"
+          "value": "2025-05-08T04:57:09.913Z"
         },
         {
           "name": "license",
@@ -81731,7 +80123,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.389Z"
+          "value": "2025-05-08T04:57:09.927Z"
         },
         {
           "name": "license",
@@ -81755,7 +80147,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.401Z"
+          "value": "2025-05-08T04:57:09.940Z"
         },
         {
           "name": "license",
@@ -81779,7 +80171,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.411Z"
+          "value": "2025-05-08T04:57:09.953Z"
         },
         {
           "name": "license",
@@ -81803,7 +80195,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.423Z"
+          "value": "2025-05-08T04:57:09.966Z"
         },
         {
           "name": "license",
@@ -81827,7 +80219,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.436Z"
+          "value": "2025-05-08T04:57:09.985Z"
         },
         {
           "name": "license",
@@ -81851,7 +80243,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.448Z"
+          "value": "2025-05-08T04:57:10.000Z"
         },
         {
           "name": "license",
@@ -81875,7 +80267,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.472Z"
+          "value": "2025-05-08T04:57:10.039Z"
         },
         {
           "name": "license",
@@ -81899,7 +80291,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.484Z"
+          "value": "2025-05-08T04:57:10.060Z"
         },
         {
           "name": "license",
@@ -81923,7 +80315,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.495Z"
+          "value": "2025-05-08T04:57:10.079Z"
         },
         {
           "name": "license",
@@ -81947,7 +80339,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.508Z"
+          "value": "2025-05-08T04:57:10.099Z"
         },
         {
           "name": "license",
@@ -81971,7 +80363,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.531Z"
+          "value": "2025-05-08T04:57:10.152Z"
         },
         {
           "name": "license",
@@ -81995,7 +80387,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.543Z"
+          "value": "2025-05-08T04:57:10.174Z"
         },
         {
           "name": "license",
@@ -82019,7 +80411,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.555Z"
+          "value": "2025-05-08T04:57:10.194Z"
         },
         {
           "name": "license",
@@ -82043,7 +80435,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.568Z"
+          "value": "2025-05-08T04:57:10.232Z"
         },
         {
           "name": "license",
@@ -82067,7 +80459,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.580Z"
+          "value": "2025-05-08T04:57:10.248Z"
         },
         {
           "name": "license",
@@ -82091,7 +80483,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.591Z"
+          "value": "2025-05-08T04:57:10.263Z"
         },
         {
           "name": "license",
@@ -82115,7 +80507,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.603Z"
+          "value": "2025-05-08T04:57:10.279Z"
         },
         {
           "name": "license",
@@ -82139,7 +80531,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.615Z"
+          "value": "2025-05-08T04:57:10.296Z"
         },
         {
           "name": "license",
@@ -82163,7 +80555,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.626Z"
+          "value": "2025-05-08T04:57:10.312Z"
         },
         {
           "name": "license",
@@ -82187,7 +80579,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.638Z"
+          "value": "2025-05-08T04:57:10.327Z"
         },
         {
           "name": "license",
@@ -82211,7 +80603,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.649Z"
+          "value": "2025-05-08T04:57:10.341Z"
         },
         {
           "name": "license",
@@ -82235,7 +80627,1615 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T17:58:36.661Z"
+          "value": "2025-05-08T04:57:10.355Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "window",
+      "version": "unknown",
+      "purl": "pkg:pypi/window@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:10.392Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "innerHeight",
+      "version": "unknown",
+      "purl": "pkg:pypi/innerHeight@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:10.411Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "visualViewport",
+      "version": "unknown",
+      "purl": "pkg:pypi/visualViewport@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:10.430Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "outerWidth",
+      "version": "unknown",
+      "purl": "pkg:pypi/outerWidth@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:10.447Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "outerHeight",
+      "version": "unknown",
+      "purl": "pkg:pypi/outerHeight@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:10.465Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "devicePixelRatio",
+      "version": "unknown",
+      "purl": "pkg:pypi/devicePixelRatio@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:10.485Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "document",
+      "version": "unknown",
+      "purl": "pkg:pypi/document@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:10.504Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "clientInformation",
+      "version": "unknown",
+      "purl": "pkg:pypi/clientInformation@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:10.520Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "styleMedia",
+      "version": "unknown",
+      "purl": "pkg:pypi/styleMedia@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:10.544Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "trustedTypes",
+      "version": "unknown",
+      "purl": "pkg:pypi/trustedTypes@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:10.565Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "indexedDB",
+      "version": "unknown",
+      "purl": "pkg:pypi/indexedDB@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:10.586Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "navigator",
+      "version": "unknown",
+      "purl": "pkg:pypi/navigator@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:10.611Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "isSecureContext",
+      "version": "unknown",
+      "purl": "pkg:pypi/isSecureContext@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:10.630Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "cancelAnimationFrame",
+      "version": "unknown",
+      "purl": "pkg:pypi/cancelAnimationFrame@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:10.649Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "cancelIdleCallback",
+      "version": "unknown",
+      "purl": "pkg:pypi/cancelIdleCallback@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:10.674Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "captureEvents",
+      "version": "unknown",
+      "purl": "pkg:pypi/captureEvents@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:10.697Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "clearInterval",
+      "version": "unknown",
+      "purl": "pkg:pypi/clearInterval@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:10.727Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "clearTimeout",
+      "version": "unknown",
+      "purl": "pkg:pypi/clearTimeout@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:10.749Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "createImageBitmap",
+      "version": "unknown",
+      "purl": "pkg:pypi/createImageBitmap@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:10.775Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "getComputedStyle",
+      "version": "unknown",
+      "purl": "pkg:pypi/getComputedStyle@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:10.797Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "getSelection",
+      "version": "unknown",
+      "purl": "pkg:pypi/getSelection@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:10.818Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "matchMedia",
+      "version": "unknown",
+      "purl": "pkg:pypi/matchMedia@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:10.832Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "location",
+      "version": "unknown",
+      "purl": "pkg:pypi/location@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:10.846Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "moveBy",
+      "version": "unknown",
+      "purl": "pkg:pypi/moveBy@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:10.859Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "moveTo",
+      "version": "unknown",
+      "purl": "pkg:pypi/moveTo@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:10.874Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "postMessage",
+      "version": "unknown",
+      "purl": "pkg:pypi/postMessage@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:10.891Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "queueMicrotask",
+      "version": "unknown",
+      "purl": "pkg:pypi/queueMicrotask@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:10.927Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "releaseEvents",
+      "version": "unknown",
+      "purl": "pkg:pypi/releaseEvents@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:10.943Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "reportError",
+      "version": "unknown",
+      "purl": "pkg:pypi/reportError@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:10.959Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "requestAnimationFrame",
+      "version": "unknown",
+      "purl": "pkg:pypi/requestAnimationFrame@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:10.979Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "requestIdleCallback",
+      "version": "unknown",
+      "purl": "pkg:pypi/requestIdleCallback@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.001Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "resizeBy",
+      "version": "unknown",
+      "purl": "pkg:pypi/resizeBy@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.026Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "resizeTo",
+      "version": "unknown",
+      "purl": "pkg:pypi/resizeTo@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.047Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "localStorage",
+      "version": "unknown",
+      "purl": "pkg:pypi/localStorage@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.066Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "scrollBy",
+      "version": "unknown",
+      "purl": "pkg:pypi/scrollBy@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.087Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "scrollTo",
+      "version": "unknown",
+      "purl": "pkg:pypi/scrollTo@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.110Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "setInterval",
+      "version": "unknown",
+      "purl": "pkg:pypi/setInterval@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.134Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "setTimeout",
+      "version": "unknown",
+      "purl": "pkg:pypi/setTimeout@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.154Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "structuredClone",
+      "version": "unknown",
+      "purl": "pkg:pypi/structuredClone@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.175Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "sessionStorage",
+      "version": "unknown",
+      "purl": "pkg:pypi/sessionStorage@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.195Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "webkitCancelAnimationFrame",
+      "version": "unknown",
+      "purl": "pkg:pypi/webkitCancelAnimationFrame@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.214Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "webkitRequestAnimationFrame",
+      "version": "unknown",
+      "purl": "pkg:pypi/webkitRequestAnimationFrame@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.232Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "cookieStore",
+      "version": "unknown",
+      "purl": "pkg:pypi/cookieStore@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.249Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "launchQueue",
+      "version": "unknown",
+      "purl": "pkg:pypi/launchQueue@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.269Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "sharedStorage",
+      "version": "unknown",
+      "purl": "pkg:pypi/sharedStorage@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.290Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "fetch",
+      "version": "unknown",
+      "purl": "pkg:pypi/fetch@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.312Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "documentPictureInPicture",
+      "version": "unknown",
+      "purl": "pkg:pypi/documentPictureInPicture@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.330Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "fetchLater",
+      "version": "unknown",
+      "purl": "pkg:pypi/fetchLater@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.344Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "getDigitalGoodsService",
+      "version": "unknown",
+      "purl": "pkg:pypi/getDigitalGoodsService@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.364Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "getScreenDetails",
+      "version": "unknown",
+      "purl": "pkg:pypi/getScreenDetails@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.382Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "queryLocalFonts",
+      "version": "unknown",
+      "purl": "pkg:pypi/queryLocalFonts@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.404Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "XMLHttpRequest",
+      "version": "unknown",
+      "purl": "pkg:pypi/XMLHttpRequest@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.425Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "showDirectoryPicker",
+      "version": "unknown",
+      "purl": "pkg:pypi/showDirectoryPicker@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.444Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "showOpenFilePicker",
+      "version": "unknown",
+      "purl": "pkg:pypi/showOpenFilePicker@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.465Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "showSaveFilePicker",
+      "version": "unknown",
+      "purl": "pkg:pypi/showSaveFilePicker@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.486Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "customElements",
+      "version": "unknown",
+      "purl": "pkg:pypi/customElements@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.508Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "originAgentCluster",
+      "version": "unknown",
+      "purl": "pkg:pypi/originAgentCluster@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.529Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "speechSynthesis",
+      "version": "unknown",
+      "purl": "pkg:pypi/speechSynthesis@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.552Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "webkitRequestFileSystem",
+      "version": "unknown",
+      "purl": "pkg:pypi/webkitRequestFileSystem@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.575Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "innerWidth",
+      "version": "unknown",
+      "purl": "pkg:pypi/innerWidth@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.595Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "webkitResolveLocalFileSystemURL",
+      "version": "unknown",
+      "purl": "pkg:pypi/webkitResolveLocalFileSystemURL@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.616Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "__REACT_DEVTOOLS_GLOBAL_HOOK__",
+      "version": "unknown",
+      "purl": "pkg:pypi/__REACT_DEVTOOLS_GLOBAL_HOOK__@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.637Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "__reactRefreshInjected",
+      "version": "unknown",
+      "purl": "pkg:pypi/__reactRefreshInjected@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.657Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "PERSISTENT",
+      "version": "unknown",
+      "purl": "pkg:pypi/PERSISTENT@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.680Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "addEventListener",
+      "version": "unknown",
+      "purl": "pkg:pypi/addEventListener@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.703Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "dispatchEvent",
+      "version": "unknown",
+      "purl": "pkg:pypi/dispatchEvent@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.726Z"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "removeEventListener",
+      "version": "unknown",
+      "purl": "pkg:pypi/removeEventListener@unknown",
+      "properties": [
+        {
+          "name": "detection-method",
+          "value": "runtime-monitoring"
+        },
+        {
+          "name": "detection-type",
+          "value": "runtime"
+        },
+        {
+          "name": "detection-time",
+          "value": "2025-05-08T04:57:11.749Z"
         },
         {
           "name": "license",
@@ -82259,7 +82259,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T21:19:40.586Z"
+          "value": "2025-05-08T04:57:11.814Z"
         },
         {
           "name": "license",
@@ -82283,7 +82283,7 @@
         },
         {
           "name": "detection-time",
-          "value": "2025-05-05T21:19:40.614Z"
+          "value": "2025-05-08T04:57:11.828Z"
         },
         {
           "name": "license",

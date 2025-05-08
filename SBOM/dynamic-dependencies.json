@@ -2,763 +2,1123 @@
   {
     "package": "_http_agent",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:25.625Z",
+    "timestamp": "2025-05-08T04:57:08.968Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "_http_client",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:25.643Z",
+    "timestamp": "2025-05-08T04:57:08.982Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "_http_common",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:25.656Z",
+    "timestamp": "2025-05-08T04:57:08.998Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "_http_incoming",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:25.669Z",
+    "timestamp": "2025-05-08T04:57:09.021Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "_http_outgoing",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:25.685Z",
+    "timestamp": "2025-05-08T04:57:09.050Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "_http_server",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:25.701Z",
+    "timestamp": "2025-05-08T04:57:09.078Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "_stream_duplex",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:25.722Z",
+    "timestamp": "2025-05-08T04:57:09.106Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "_stream_passthrough",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:25.741Z",
+    "timestamp": "2025-05-08T04:57:09.125Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "_stream_readable",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:25.757Z",
+    "timestamp": "2025-05-08T04:57:09.147Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "_stream_transform",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:25.772Z",
+    "timestamp": "2025-05-08T04:57:09.170Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "_stream_wrap",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:25.789Z",
+    "timestamp": "2025-05-08T04:57:09.194Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "_stream_writable",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:25.804Z",
+    "timestamp": "2025-05-08T04:57:09.216Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "_tls_common",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:25.822Z",
+    "timestamp": "2025-05-08T04:57:09.238Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "_tls_wrap",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:25.838Z",
+    "timestamp": "2025-05-08T04:57:09.260Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "assert",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:25.852Z",
+    "timestamp": "2025-05-08T04:57:09.279Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "async_hooks",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:25.899Z",
+    "timestamp": "2025-05-08T04:57:09.442Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "buffer",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:25.923Z",
+    "timestamp": "2025-05-08T04:57:09.617Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "child_process",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:25.952Z",
+    "timestamp": "2025-05-08T04:57:09.660Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "cluster",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:25.968Z",
+    "timestamp": "2025-05-08T04:57:09.678Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "console",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:25.979Z",
+    "timestamp": "2025-05-08T04:57:09.698Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "constants",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:25.990Z",
+    "timestamp": "2025-05-08T04:57:09.719Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "crypto",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.001Z",
+    "timestamp": "2025-05-08T04:57:09.739Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "dgram",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.011Z",
+    "timestamp": "2025-05-08T04:57:09.758Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "diagnostics_channel",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.022Z",
+    "timestamp": "2025-05-08T04:57:09.774Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "dns",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.190Z",
+    "timestamp": "2025-05-08T04:57:09.796Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "domain",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.202Z",
+    "timestamp": "2025-05-08T04:57:09.820Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "events",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.211Z",
+    "timestamp": "2025-05-08T04:57:09.835Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "fs",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.221Z",
+    "timestamp": "2025-05-08T04:57:09.848Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "http",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.231Z",
+    "timestamp": "2025-05-08T04:57:09.865Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "http2",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.242Z",
+    "timestamp": "2025-05-08T04:57:09.880Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "https",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.254Z",
+    "timestamp": "2025-05-08T04:57:09.897Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "inspector",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.266Z",
+    "timestamp": "2025-05-08T04:57:09.913Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "module",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.277Z",
+    "timestamp": "2025-05-08T04:57:09.927Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "net",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.286Z",
+    "timestamp": "2025-05-08T04:57:09.940Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "os",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.296Z",
+    "timestamp": "2025-05-08T04:57:09.953Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "path",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.307Z",
+    "timestamp": "2025-05-08T04:57:09.966Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "perf_hooks",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.318Z",
+    "timestamp": "2025-05-08T04:57:09.985Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "process",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.332Z",
+    "timestamp": "2025-05-08T04:57:10.000Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "punycode",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.343Z",
+    "timestamp": "2025-05-08T04:57:10.020Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "querystring",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.354Z",
+    "timestamp": "2025-05-08T04:57:10.039Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "readline",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.366Z",
+    "timestamp": "2025-05-08T04:57:10.060Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "repl",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.376Z",
+    "timestamp": "2025-05-08T04:57:10.079Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "stream",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.386Z",
+    "timestamp": "2025-05-08T04:57:10.099Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "string_decoder",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.395Z",
+    "timestamp": "2025-05-08T04:57:10.127Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "sys",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.405Z",
+    "timestamp": "2025-05-08T04:57:10.152Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "timers",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.415Z",
+    "timestamp": "2025-05-08T04:57:10.174Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "tls",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.424Z",
+    "timestamp": "2025-05-08T04:57:10.194Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "trace_events",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.437Z",
+    "timestamp": "2025-05-08T04:57:10.232Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "tty",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.452Z",
+    "timestamp": "2025-05-08T04:57:10.248Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "url",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.468Z",
+    "timestamp": "2025-05-08T04:57:10.263Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "util",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.487Z",
+    "timestamp": "2025-05-08T04:57:10.279Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "v8",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.526Z",
+    "timestamp": "2025-05-08T04:57:10.296Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "vm",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.594Z",
+    "timestamp": "2025-05-08T04:57:10.312Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "wasi",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.608Z",
+    "timestamp": "2025-05-08T04:57:10.327Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "worker_threads",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.632Z",
+    "timestamp": "2025-05-08T04:57:10.341Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "zlib",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:26.645Z",
+    "timestamp": "2025-05-08T04:57:10.355Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "safer-buffer",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:33.757Z",
+    "timestamp": "2025-05-08T04:57:10.376Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "window",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:33.771Z",
+    "timestamp": "2025-05-08T04:57:10.392Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "innerHeight",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:33.787Z",
+    "timestamp": "2025-05-08T04:57:10.411Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "visualViewport",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:33.806Z",
+    "timestamp": "2025-05-08T04:57:10.430Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "outerWidth",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:33.828Z",
+    "timestamp": "2025-05-08T04:57:10.447Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "outerHeight",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:33.844Z",
+    "timestamp": "2025-05-08T04:57:10.465Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "devicePixelRatio",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:33.861Z",
+    "timestamp": "2025-05-08T04:57:10.485Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "document",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:33.876Z",
+    "timestamp": "2025-05-08T04:57:10.504Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "clientInformation",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:33.891Z",
+    "timestamp": "2025-05-08T04:57:10.520Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "styleMedia",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.317Z",
+    "timestamp": "2025-05-08T04:57:10.544Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "trustedTypes",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.337Z",
+    "timestamp": "2025-05-08T04:57:10.565Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "indexedDB",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.352Z",
+    "timestamp": "2025-05-08T04:57:10.586Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "navigator",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.370Z",
+    "timestamp": "2025-05-08T04:57:10.611Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "isSecureContext",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.383Z",
+    "timestamp": "2025-05-08T04:57:10.630Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "cancelAnimationFrame",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.397Z",
+    "timestamp": "2025-05-08T04:57:10.649Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "cancelIdleCallback",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.414Z",
+    "timestamp": "2025-05-08T04:57:10.674Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "captureEvents",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.429Z",
+    "timestamp": "2025-05-08T04:57:10.697Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "clearInterval",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.443Z",
+    "timestamp": "2025-05-08T04:57:10.727Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "clearTimeout",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.455Z",
+    "timestamp": "2025-05-08T04:57:10.749Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "createImageBitmap",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.467Z",
+    "timestamp": "2025-05-08T04:57:10.775Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "getComputedStyle",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.479Z",
+    "timestamp": "2025-05-08T04:57:10.797Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "getSelection",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.487Z",
+    "timestamp": "2025-05-08T04:57:10.818Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "matchMedia",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.498Z",
+    "timestamp": "2025-05-08T04:57:10.832Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "location",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.506Z",
+    "timestamp": "2025-05-08T04:57:10.846Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "moveBy",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.515Z",
+    "timestamp": "2025-05-08T04:57:10.859Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "moveTo",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.523Z",
+    "timestamp": "2025-05-08T04:57:10.874Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "postMessage",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.534Z",
+    "timestamp": "2025-05-08T04:57:10.891Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "history",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.545Z",
+    "timestamp": "2025-05-08T04:57:10.911Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "queueMicrotask",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.554Z",
+    "timestamp": "2025-05-08T04:57:10.927Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "releaseEvents",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.564Z",
+    "timestamp": "2025-05-08T04:57:10.943Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "reportError",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.573Z",
+    "timestamp": "2025-05-08T04:57:10.959Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "requestAnimationFrame",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.583Z",
+    "timestamp": "2025-05-08T04:57:10.979Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "requestIdleCallback",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.594Z",
+    "timestamp": "2025-05-08T04:57:11.001Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "resizeBy",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.604Z",
+    "timestamp": "2025-05-08T04:57:11.026Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "resizeTo",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.615Z",
+    "timestamp": "2025-05-08T04:57:11.047Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "localStorage",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.623Z",
+    "timestamp": "2025-05-08T04:57:11.066Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "scrollBy",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.630Z",
+    "timestamp": "2025-05-08T04:57:11.087Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "scrollTo",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.639Z",
+    "timestamp": "2025-05-08T04:57:11.110Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "setInterval",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.651Z",
+    "timestamp": "2025-05-08T04:57:11.134Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "setTimeout",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.661Z",
+    "timestamp": "2025-05-08T04:57:11.154Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "structuredClone",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.669Z",
+    "timestamp": "2025-05-08T04:57:11.175Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "sessionStorage",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.678Z",
+    "timestamp": "2025-05-08T04:57:11.195Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "webkitCancelAnimationFrame",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.686Z",
+    "timestamp": "2025-05-08T04:57:11.214Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "webkitRequestAnimationFrame",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.694Z",
+    "timestamp": "2025-05-08T04:57:11.232Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "cookieStore",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.704Z",
+    "timestamp": "2025-05-08T04:57:11.249Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "launchQueue",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.713Z",
+    "timestamp": "2025-05-08T04:57:11.269Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "sharedStorage",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.725Z",
+    "timestamp": "2025-05-08T04:57:11.290Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "fetch",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.736Z",
+    "timestamp": "2025-05-08T04:57:11.312Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "documentPictureInPicture",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.779Z",
+    "timestamp": "2025-05-08T04:57:11.330Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "fetchLater",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.809Z",
+    "timestamp": "2025-05-08T04:57:11.344Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "getDigitalGoodsService",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.821Z",
+    "timestamp": "2025-05-08T04:57:11.364Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "getScreenDetails",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.853Z",
+    "timestamp": "2025-05-08T04:57:11.382Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "queryLocalFonts",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.870Z",
+    "timestamp": "2025-05-08T04:57:11.404Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "XMLHttpRequest",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.884Z",
+    "timestamp": "2025-05-08T04:57:11.425Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "showDirectoryPicker",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.901Z",
+    "timestamp": "2025-05-08T04:57:11.444Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "showOpenFilePicker",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.919Z",
+    "timestamp": "2025-05-08T04:57:11.465Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "showSaveFilePicker",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.935Z",
+    "timestamp": "2025-05-08T04:57:11.486Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "customElements",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:34.948Z",
+    "timestamp": "2025-05-08T04:57:11.508Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "originAgentCluster",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:35.195Z",
+    "timestamp": "2025-05-08T04:57:11.529Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "speechSynthesis",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:35.206Z",
+    "timestamp": "2025-05-08T04:57:11.552Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "webkitRequestFileSystem",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:35.217Z",
+    "timestamp": "2025-05-08T04:57:11.575Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "innerWidth",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:35.231Z",
+    "timestamp": "2025-05-08T04:57:11.595Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "webkitResolveLocalFileSystemURL",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:35.243Z",
+    "timestamp": "2025-05-08T04:57:11.616Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "__REACT_DEVTOOLS_GLOBAL_HOOK__",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:35.254Z",
+    "timestamp": "2025-05-08T04:57:11.637Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "__reactRefreshInjected",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:35.263Z",
+    "timestamp": "2025-05-08T04:57:11.657Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "PERSISTENT",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:35.273Z",
+    "timestamp": "2025-05-08T04:57:11.680Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "addEventListener",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:35.282Z",
+    "timestamp": "2025-05-08T04:57:11.703Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "dispatchEvent",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:35.294Z",
+    "timestamp": "2025-05-08T04:57:11.726Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "removeEventListener",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:35.304Z",
+    "timestamp": "2025-05-08T04:57:11.749Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "react",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:35.315Z",
+    "timestamp": "2025-05-08T04:57:11.770Z",
     "detected_by": "runtime-monitor"
   },
   {
     "package": "react-dom",
     "type": "runtime",
-    "timestamp": "2025-05-08T02:00:35.322Z",
+    "timestamp": "2025-05-08T04:57:11.791Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "scrollY",
+    "type": "runtime",
+    "timestamp": "2025-05-08T04:57:11.814Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "pageYOffset",
+    "type": "runtime",
+    "timestamp": "2025-05-08T04:57:11.828Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "dayjs",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:03.684Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "nodemon",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:03.696Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "eslint",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:03.718Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "@eslint",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:03.736Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "debug",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:03.753Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "supports-color",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:03.768Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "has-flag",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:03.786Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "ms",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:04.201Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "import-fresh",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:04.218Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "resolve-from",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:04.234Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "parent-module",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:04.253Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "callsites",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:04.271Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "strip-json-comments",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:04.288Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "ignore",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:04.303Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "minimatch",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:04.320Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "brace-expansion",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:04.341Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "concat-map",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:04.361Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "balanced-match",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:04.387Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "ajv",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:04.405Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "uri-js",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:04.425Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "fast-deep-equal",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:04.448Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "json-schema-traverse",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:04.472Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "fast-json-stable-stringify",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:04.492Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "globals",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:04.517Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "glob-parent",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:04.537Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "is-glob",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:04.561Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "is-extglob",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:04.582Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "escape-string-regexp",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:04.603Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "eslint-scope",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:04.623Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "estraverse",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:04.641Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "esrecurse",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:04.876Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "eslint-visitor-keys",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:04.903Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "espree",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:04.925Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "acorn",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:04.945Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "acorn-jsx",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:04.961Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "lodash.merge",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:04.978Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "@eslint-community",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:04.995Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "levn",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:05.068Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "prelude-ls",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:05.091Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "type-check",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:05.107Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "esquery",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:05.121Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "@humanwhocodes",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:05.138Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "imurmurhash",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:05.157Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "file-entry-cache",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:05.177Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "json-stable-stringify-without-jsonify",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:05.196Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "find-up",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:05.220Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "locate-path",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:05.248Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "p-locate",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:05.273Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "p-limit",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:05.296Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "yocto-queue",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:05.318Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "path-exists",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:05.334Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "@nodelib",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:05.350Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "run-parallel",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:05.663Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "queue-microtask",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:05.674Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "fastq",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:05.687Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "reusify",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:05.700Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "is-path-inside",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:05.714Z",
+    "detected_by": "runtime-monitor"
+  },
+  {
+    "package": "jest",
+    "type": "runtime",
+    "timestamp": "2025-05-08T06:32:05.727Z",
     "detected_by": "runtime-monitor"
   }
 ]

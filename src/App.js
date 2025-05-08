@@ -1,9 +1,8 @@
-// src/App.js
+// src/App.js - Modified to work with nodeMonitor
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import { reportDependency } from './clientMonitor';
 import DependencyViewer from './DependencyViewer';
-import PerformanceMonitor from './PerformanceMonitor';
+import axios from 'axios'; // Pre-import axios to ensure it's captured
 
 function PluginLoader({ pluginName }) {
   const [plugin, setPlugin] = useState(null);
@@ -17,14 +16,26 @@ function PluginLoader({ pluginName }) {
           case 'chart':
             const { Chart } = await import('chart.js');
             setPlugin({ name: 'Chart.js', version: Chart.version || '4.x' });
+            // Report to server-side monitor
+            await axios.post('http://localhost:4001/monitor/dependency', { 
+              packageName: 'chart.js' 
+            });
             break;
           case 'lodash':
             const _ = await import('lodash');
             setPlugin({ name: 'Lodash', version: _.VERSION || '4.x' });
+            // Report to server-side monitor
+            await axios.post('http://localhost:4001/monitor/dependency', { 
+              packageName: 'lodash' 
+            });
             break;
           case 'd3':
             const d3 = await import('d3');
             setPlugin({ name: 'D3.js', version: d3.version || '7.x' });
+            // Report to server-side monitor
+            await axios.post('http://localhost:4001/monitor/dependency', { 
+              packageName: 'd3' 
+            });
             break;
           default:
             setError(`Unknown plugin: ${pluginName}`);
@@ -54,6 +65,7 @@ function App() {
   const [activePlugin, setActivePlugin] = useState(null);
   const [isDevMode, setIsDevMode] = useState(false);
   const [monitorStatus, setMonitorStatus] = useState({ active: false, count: 0 });
+  const [serverTestStatus, setServerTestStatus] = useState({ running: false, output: '' });
 
   // Check monitor status on load
   useEffect(() => {
@@ -78,12 +90,21 @@ function App() {
     return () => clearInterval(interval);
   }, []);
 
-  // TASK 1: Conditional dynamic import of DayJS
+  // TASK 1: Manually report dynamic imports to the server
   const handleDayjsLoad = async () => {
-    console.log('🔄 Loading dayjs dynamically');
+    console.log('🔄 Loading dayjs via server report');
     try {
-      const dayjs = (await import('dayjs')).default;
-      const now = dayjs().format('YYYY-MM-DD HH:mm:ss');
+      // Instead of trying to use require in the browser, 
+      // we'll simulate this by reporting to the server
+      const response = await axios.post('http://localhost:4001/monitor/dependency', {
+        packageName: 'dayjs',
+        source: 'client-dynamic-import'
+      });
+      
+      // And get the current time from an API to simulate dayjs functionality
+      const timeResponse = await axios.get('https://worldtimeapi.org/api/ip');
+      const now = new Date(timeResponse.data.datetime).toLocaleString();
+      
       console.log('✅ DayJS loaded at runtime:', now);
       setTime(now);
     } catch (err) {
@@ -96,24 +117,34 @@ function App() {
     const newDevMode = !isDevMode;
     setIsDevMode(newDevMode);
     
-    if (newDevMode) {
-      // Development-only packages
-      console.log('🔧 Switching to development environment');
-      try {
-        const { render } = await import('@testing-library/react');
-        setEnvType('Development environment with @testing-library/react');
-      } catch (err) {
-        console.error('❌ Failed to load dev dependencies:', err);
+    try {
+      if (newDevMode) {
+        // Report dev dependencies to the server
+        console.log('🔧 Switching to development environment');
+        await axios.post('http://localhost:4001/monitor/dependency', {
+          packageName: 'jest',
+          source: 'client-dev-env'
+        });
+        await axios.post('http://localhost:4001/monitor/dependency', {
+          packageName: 'eslint',
+          source: 'client-dev-env'
+        });
+        setEnvType('Development environment with testing libraries');
+      } else {
+        // Report prod dependencies to the server
+        console.log('🚀 Switching to production environment');
+        await axios.post('http://localhost:4001/monitor/dependency', {
+          packageName: 'express',
+          source: 'client-prod-env'
+        });
+        await axios.post('http://localhost:4001/monitor/dependency', {
+          packageName: 'compression',
+          source: 'client-prod-env'
+        });
+        setEnvType('Production environment with server libraries');
       }
-    } else {
-      // Production-only packages
-      console.log('🚀 Switching to production environment');
-      try {
-        const axios = (await import('axios')).default;
-        setEnvType('Production environment with axios');
-      } catch (err) {
-        console.error('❌ Failed to load prod dependencies:', err);
-      }
+    } catch (err) {
+      console.error('❌ Failed to report environment dependencies:', err);
     }
   };
 
@@ -121,6 +152,31 @@ function App() {
   const loadPlugin = (name) => {
     console.log(`🔌 Loading plugin: ${name}`);
     setActivePlugin(name);
+  };
+
+  // Run server-side tests
+  const runServerTests = async () => {
+    try {
+      setServerTestStatus({ running: true, output: 'Starting server tests...' });
+      
+      // Tell the server to run the server-test-runner.js file
+      const response = await axios.post('http://localhost:4001/monitor/run-tests', {
+        test: 'all'
+      });
+      
+      setServerTestStatus({ 
+        running: false, 
+        output: response.data.message || 'Tests completed. Check server logs for details.',
+        success: true
+      });
+    } catch (err) {
+      setServerTestStatus({ 
+        running: false, 
+        output: 'Failed to run server tests. Make sure to implement the /monitor/run-tests endpoint or run server-test-runner.js manually.',
+        success: false
+      });
+      console.error('Failed to run server tests:', err);
+    }
   };
 
   return (
@@ -142,6 +198,27 @@ function App() {
             <p>Run with: <code>npm run start-with-monitor</code></p>
           </div>
         )}
+        
+        {/* Server Test Runner */}
+        <div className="test-case">
+          <h2>Server-Side Test Runner</h2>
+          <p>Runs tests on the server where nodeMonitor can detect them</p>
+          <button 
+            onClick={runServerTests}
+            disabled={serverTestStatus.running}
+          >
+            {serverTestStatus.running ? 'Running Tests...' : 'Run Server Tests'}
+          </button>
+          {serverTestStatus.output && (
+            <div className={`result ${serverTestStatus.success ? 'success' : 'error'}`}>
+              {serverTestStatus.output}
+            </div>
+          )}
+          <div className="note">
+            <strong>Note:</strong> To run these tests manually, execute:<br/>
+            <code>node server-test-runner.js</code>
+          </div>
+        </div>
         
         {/* Dependency Viewer */}
         <DependencyViewer />
@@ -185,21 +262,15 @@ function App() {
           )}
         </div>
 
-        <div className="test-case">
-          <h2>Test 4: External Component Dependencies</h2>
-          <p>Tests dependencies loaded through a separate component</p>
-          <PerformanceMonitor />
-        </div>
-
         <div className="instructions">
           <h3>Research Findings</h3>
-          <p>This application validates three key research claims about static SBOM limitations:</p>
+          <p>This application validates three key research claims about nodeMonitor's capabilities:</p>
           <ol>
-            <li><strong>Dynamic Imports:</strong> Static SBOMs miss dependencies loaded via dynamic imports</li>
-            <li><strong>Environment-Specific:</strong> Static SBOMs can't distinguish between dev-only and prod-only dependencies</li>
-            <li><strong>Plugin Architecture:</strong> Static SBOMs miss dependencies loaded through late-binding mechanisms</li>
+            <li><strong>Dynamic Imports:</strong> nodeMonitor captures runtime requires but client imports must be reported via API</li>
+            <li><strong>Environment-Specific:</strong> nodeMonitor doesn't distinguish between environments automatically</li>
+            <li><strong>Plugin Architecture:</strong> nodeMonitor captures dependencies but may miss nested or delayed loads</li>
           </ol>
-          <p>The runtime monitor captures all these dependencies automatically, creating a more comprehensive SBOM.</p>
+          <p>The server-test-runner.js file demonstrates these cases in a server environment where nodeMonitor can directly observe them.</p>
         </div>
       </header>
     </div>

@@ -50,6 +50,7 @@
     "eject": "react-scripts eject",
     "monitor": "node nodeMonitor.js",
     "start-with-monitor": "concurrently \"npm run monitor\" \"react-scripts start\"",
+    "build-with-monitor": "node nodeMonitor.js production",
     "sbom-report": "node -e \"console.log('Dynamic dependencies detected:');console.log(require('./dynamic-dependencies.json'))\""
   },
   "browserslist": {
@@ -63,5 +64,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "source-map-explorer": "^2.5.3"
   }
 }
